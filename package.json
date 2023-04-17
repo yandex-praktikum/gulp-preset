@@ -12,7 +12,8 @@
     "checkAll": "npm run check && npm run lint",
     "fixAll": "npm run format && npm run lintfix",
     "build": "gulp build",
-    "dev": "gulp"
+    "dev": "gulp",
+    "fixAndBuild": "npm run fixAll && npm run build"
   },
   "author": "",
   "license": "ISC",
