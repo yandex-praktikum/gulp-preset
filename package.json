@@ -10,7 +10,9 @@
     "lint": "stylelint './src/**/*.css'",
     "lintfix": "stylelint './src/**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
-    "fixAll": "npm run format && npm run lintfix"
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "gulp build",
+    "dev": "gulp"
   },
   "author": "",
   "license": "ISC",
